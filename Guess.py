@@ -1,6 +1,7 @@
-secret_no = 3
+secret_no = 8
 no_guess =0
-while no_guess < secret_no :
+limit = 3
+while no_guess < limit :
     guess = int(input('Guess the Number :'))
     no_guess += 1
     if guess == secret_no:
